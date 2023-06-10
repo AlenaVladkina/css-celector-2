@@ -1,1 +1,96 @@
+/*.btn:hover { 
+    color: red;
+    background: yellow;
+ }*/
 
+ .title:hover {
+    color: green;
+ }
+ 
+ #yellow:visited {
+    color: yellow;
+  }
+
+  #sidebar:link {
+    color: red;
+  }
+
+ .btn:active {
+    background: blue;
+  }
+
+  .btn:focus {
+    background: orange;
+    color: orange;
+  }
+
+  #target:target {
+    color: white;
+    background: green;
+  }
+
+  .input-checkbox {
+    background-color: blue;
+    color: white;
+    }
+
+    p:lang(uk) {
+        color: blue;
+    }
+
+    input:enabled {
+        color: red;
+        background: yellow;
+    }
+
+    input, button:disabled {
+        background: yellow;
+    }
+
+    input:read-write {
+        background: yellow;
+    }
+
+    input:read-only {
+        background: yellow;
+    }
+
+    input:valid {
+        background: green;
+    }
+
+    input:invalid {
+        background: red;
+    }
+
+    input, textarea:optional {
+        background: red;
+    }
+
+    input:out-of-range {
+        color: red;
+    }
+
+    input:in-range {
+        color: red;
+    }
+
+    input:placeholder-shown {
+        background-color: red;
+    }
+
+    .m-5:focus-within {
+        color: white;
+        background-color: yellow;
+    }
+
+    input:invalid {
+        background-color: red;
+    }
+
+
+
+
+
+
+  
