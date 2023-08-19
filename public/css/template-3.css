@@ -14,7 +14,7 @@
     --color-titile: #212529;
     --color-text: #343a40;
 
-    --border-radius: 12px;
+    --border-radius-d: 12px;
 
     --weight-title: 500;
     --weight-text: 400;
@@ -55,7 +55,7 @@
     width: 24px;
     height: 24px;
 
-    border-radius: calc(var(--border-radius) / 2);
+    border-radius-d: calc(var(--border-radius-d) / 2);
 
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@ color: var(--color-primary);
     .hero_image {
         width: 500px;
         height: 500px;
-        border-radius: var(--border-radius);
+        border-radius-d: var(--border-radius-d);
     }
 
     .hero_content {
@@ -169,7 +169,7 @@ color: var(--color-primary);
     .card_image {
         height: 140px;
         width: 140px;
-        border-radius: 50%;
+        border-radius-d: 50%;
     }
 
     .card_title {
@@ -189,7 +189,7 @@ color: var(--color-primary);
         font-size: var(--size-d);
         text-decoration: none;
         padding: var(--space-m) var(--space-xm);
-        border-radius: var(--border-radius);
+        border-radius-d: var(--border-radius-d);
     }
 
     .card_button {
@@ -210,7 +210,7 @@ color: var(--color-primary);
 
         background: var(--color-primary);
         padding: var(--space-l);
-        border-radius: var(--border-radius);
+        border-radius-d: var(--border-radius-d);
     }
 
     .form_content {
