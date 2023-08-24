@@ -147,7 +147,7 @@ color: var(--color-primary);
         line-height: 170%;
     }
   
-    .blog {
+    .featured {
 
         display: flex;
         gap: var(--space-b);
@@ -160,20 +160,19 @@ color: var(--color-primary);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: var(--space-l);
+       
+        gap: var(--space-m);
 
      }   
 
     .card_image {
-        height: 140px;
-        width: 140px;
-        border-radius-d: 50%;
+        height: 64px;
+        width: 64px;
+        border-radius-d: var(--border-radius-d);
     }
 
     .card_title {
-        font-size: 32px;
+        font-size: 31px;
 
         font-weight: var(--weight-title);
     }
@@ -184,58 +183,52 @@ color: var(--color-primary);
         color: var(--color-text);
     }
 
-    .button {
-        display: inline-block;
-        font-size: var(--size-d);
-        text-decoration: none;
-        padding: var(--space-m) var(--space-xm);
-        border-radius-d: var(--border-radius-d);
-    }
-
     .card_button {
-          
-        color: var(--color-white);
-        background-color: var(--color-primary);
-       
+        color: var(--color-primary);
     }
 
     .button :hover {
         opacity: 0.7;
     }
 
-    .form {
+    .actions {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-
-        background: var(--color-primary);
+        
+        background: #563D7C;
         padding: var(--space-l);
-        border-radius-d: var(--border-radius-d);
+        border-radius-d: 8px;
     }
 
     .form_content {
         display: flex;
         flex-direction: column;
+        padding: 0px, 0px, 1px, 0px;
         gap: var(--space-m);
     }
 
     .form_title {
-        font-size: 27px;
-        font-weight: var(--weight-title);
-        color: var(--color-white);
-    }
-
-    .form_info {
-        font-size: var(--weight-text);
+        font-size: 24px;
         font-weight: var(--weight-text);
         color: var(--color-white);
+        line-height: 16px;
+        
     }
 
-    .form_button {
+        .form_button {
         background-color: var(--color-white);
         width: 100%;
-        max-width: 160px;
+        max-width: 240px;
+        height: 100%;
+        max-height: 52px;
         color: var(--color-text);
+        border-radius-d: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        Gap: 10px;
+        text-decoration: none;
+        text-align: center;
+        
     }
-
-   
