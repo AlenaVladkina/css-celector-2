@@ -1,0 +1,75 @@
+<header class="header">
+    <div class="col-6">
+        {{> logoDark}}
+    </div>
+    <nav class="header-nav col-6">
+        <div>
+            {{> navDark}}
+        </div>
+    </nav>
+</header>
+
+<section class="ad">
+    <div>
+        <div class="logo1">Ad</div>
+        {{#with header}}
+        <a class="example" href="{{ad.url}}">{{ad.text}} : www.example.com</a>
+        {{/with}}
+    </div>
+    <div>
+        <div class="userOnline">Users online: {{header.userOnline}}</div>
+    </div>
+</section>
+<div class="hero">
+    {{#with hero}}
+    <div class="hero_content">
+
+        <h1 class="hero_title">{{title}}</h1>
+        <p class="hero_description">{{description}}</p>
+
+        <a class="hero_button" href="{{button.url}}">{{button.text}}</a>
+    </div>
+    {{/with}}
+</div>
+<main>
+    <div class="about">
+        <div>
+            {{#with about}}
+            <h1 class="about_heading">{{heading}}</h1>
+            <p class="about_info">{{info}}</p>
+        </div>
+        {{/with}}
+    </div>
+</main>
+
+
+
+<section class="articles">
+    <div>
+        <h2 class="articles_title">Our Articles</h2>
+        <div class="articles_badge">View All</div>
+    </div>
+    {{#each articles}}
+
+    <div class="articles_card">
+        <div>
+            <img class="articles_img" src="{{photo}}" alt="photo">
+        </div>
+        <h4 class="articles_name">{{name}}</h4>
+        <p class="articles_details">{{description}}</p>
+        <button class="button_articles">Read All</button>
+    </div>
+
+    {{/each}}
+</section>
+
+
+<footer class="footer7">
+    {{#with footer}}
+
+    <div class="footer7_title">
+        {{> nav7}}
+    </div>
+    <span class="footer_copyright7"> {{copyright}}</span>
+    {{/with}}
+</footer>

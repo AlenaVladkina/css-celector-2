@@ -197,7 +197,7 @@ color: var(--color-primary);
         
         background: #563D7C;
         padding: var(--space-l);
-        border-radius-d: 8px;
+        border-radius: 8px;
     }
 
     .form_content {
