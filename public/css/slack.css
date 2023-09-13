@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "HelveticaNeueBold";
+    src: url("/font/HelveticaNeueBold.ttf") format("ttf");
+}
+
+body {
+    font-family:"HelveticaNeuBold";
+}
+
