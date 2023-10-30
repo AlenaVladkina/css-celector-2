@@ -1,14 +1,12 @@
-
-
 /* Document
    ========================================================================== */
 
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+ */@layer normalize {
 
-html {
+ html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -207,8 +205,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button;
-}
+-webkit-appearance: button;}
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -791,6 +788,15 @@ table {
   border-spacing: 0;
 }
 
+button,
+html,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+
 img {
   vertical-align: middle;
 }
@@ -929,4 +935,4 @@ input:-webkit-autofill {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
+}
