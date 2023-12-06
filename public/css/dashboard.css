@@ -1,3 +1,4 @@
+
 @layer normalize, block, element, mod, adaptive;
 
 
@@ -533,7 +534,8 @@ position: absolute;
                          max-width: 90%;   
                               
                           }
-                                   
+          
+                         
             }
     
     }
