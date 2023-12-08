@@ -15,6 +15,28 @@ router.get('/', function (req, res) {
   res.render('index', {})
   //                  ↑↑ сюди вводимо JSON дані
 })
+//===================================================================
+
+router.get('/dashboard', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('dashboard', {
+    layout: null,
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
+//===================================================
+router.get('/dashboard', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('dashboard', {
+    layout: null,
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
 
 // router.get Створює нам один ентпоїнт
 
